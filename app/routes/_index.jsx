@@ -64,6 +64,8 @@ export default function Homepage() {
   const data = useLoaderData();
   return (
     <div className="home">
+      <h1>Welcome to My Hydrogen Store 🚀</h1>
+      <p>Local development is now working!</p>
       <FeaturedCollection collection={data.featuredCollection} />
       <RecommendedProducts products={data.recommendedProducts} />
     </div>
